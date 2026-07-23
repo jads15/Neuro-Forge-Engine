@@ -1,13 +1,10 @@
 {
   "metadata": {
-    "nome_dataset": "Diagnóstico do Sensor do Robô",
-    "total_amostras": 4,
-    "nomes_atributos": ["Temperatura", "Vibração", "Pressão"]
+    "nome_dataset": "Diagnóstico do Sensor",
+    "nomes_atributos": ["Temperatura", "Vibração"]
   },
   "amostras": [
-    {"features": [45.2, 1.2, 101.3], "classe": "NORMAL"},
-    {"features": [88.5, 4.8, 105.0], "classe": "ANOMALIA"},
-    {"features": [42.0, 0.9, 100.8], "classe": "NORMAL"},
-    {"features": [92.1, 5.1, 108.2], "classe": "ANOMALIA"}
+    {"features": [45.2, 1.2], "classe": "NORMAL"},
+    {"features": [88.5, 4.8], "classe": "ANOMALIA"}
   ]
 }
