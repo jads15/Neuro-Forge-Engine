@@ -43,4 +43,8 @@ class LabelCategoricalEncoder(TransformadorDados):
         valores = [] 
         for chave in dados.keys():
             valores.append(chave)
-        return valores    
+        return valores
+
+    def inverse_transform(self,dados, dicionario):
+       valores= [dicionario[num] for num in dados]
+       return valores 
